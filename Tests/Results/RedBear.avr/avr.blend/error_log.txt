@@ -1,0 +1,37 @@
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working CXX compiler: /opt/arduino-1.8.12/hardware/tools/avr/bin/avr-g++
+-- Check for working CXX compiler: /opt/arduino-1.8.12/hardware/tools/avr/bin/avr-g++ - broken
+CMake Error at /mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/share/cmake-3.17/Modules/CMakeTestCXXCompiler.cmake:53 (message):
+  The C++ compiler
+
+    "/opt/arduino-1.8.12/hardware/tools/avr/bin/avr-g++"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RedBear.avr/avr.blend/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/usr/bin/make cmTC_abac0/fast && /usr/bin/make -f CMakeFiles/cmTC_abac0.dir/build.make CMakeFiles/cmTC_abac0.dir/build
+    make[1]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RedBear.avr/avr.blend/CMakeFiles/CMakeTmp'
+    Building CXX object CMakeFiles/cmTC_abac0.dir/testCXXCompiler.cxx.o
+    /opt/arduino-1.8.12/hardware/tools/avr/bin/avr-g++  -c -g -Os -w -std=gnu++11 -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu={build.mcu} -DF_CPU={build.f_cpu} -DARDUINO=10812 -DARDUINO_BLENDblend.build.core=arduino:arduinoblend.build.variant=Blend -DARDUINO_ARCH_AVR  -DUSB_VID={build.vid} -DUSB_PID={build.pid} "-DUSB_MANUFACTURER=\"Unknown\"" "-DUSB_PRODUCT=\"Blend\""    /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RedBear.avr/avr.blend/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o CMakeFiles/cmTC_abac0.dir/testCXXCompiler.cxx.o
+    avr-g++: error: strange device name '{build.mcu}' after '-mmcu=': bad character '{'
+    CMakeFiles/cmTC_abac0.dir/build.make:82: recipe for target 'CMakeFiles/cmTC_abac0.dir/testCXXCompiler.cxx.o' failed
+    make[1]: *** [CMakeFiles/cmTC_abac0.dir/testCXXCompiler.cxx.o] Error 1
+    make[1]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RedBear.avr/avr.blend/CMakeFiles/CMakeTmp'
+    Makefile:138: recipe for target 'cmTC_abac0/fast' failed
+    make: *** [cmTC_abac0/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:3 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RedBear.avr/avr.blend/CMakeFiles/CMakeOutput.log".
+See also "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RedBear.avr/avr.blend/CMakeFiles/CMakeError.log".

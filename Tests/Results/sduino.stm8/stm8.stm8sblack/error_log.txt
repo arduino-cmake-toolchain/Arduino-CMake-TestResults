@@ -1,0 +1,46 @@
+-- The CXX compiler identification is unknown
+-- Check for working CXX compiler: /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/tools/STM8Tools/2019.02.05/wrapper/sdcc.sh
+-- Check for working CXX compiler: /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/tools/STM8Tools/2019.02.05/wrapper/sdcc.sh - broken
+CMake Error at /mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/share/cmake-3.17/Modules/CMakeTestCXXCompiler.cmake:53 (message):
+  The C++ compiler
+
+    "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/tools/STM8Tools/2019.02.05/wrapper/sdcc.sh"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/stm8.stm8sblack/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/usr/bin/make cmTC_04633/fast && /usr/bin/make -f CMakeFiles/cmTC_04633.dir/build.make CMakeFiles/cmTC_04633.dir/build
+    make[1]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/stm8.stm8sblack/CMakeFiles/CMakeTmp'
+    Building CXX object CMakeFiles/cmTC_04633.dir/testCXXCompiler.cxx.o
+    /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/tools/STM8Tools/2019.02.05/wrapper/sdcc.sh  /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/tools/sdcc/build.11242/bin/sdcc /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/stm8.stm8sblack/CMakeFiles/CMakeTmp/testCXXCompiler.cxx CMakeFiles/cmTC_04633.dir/testCXXCompiler.cxx.o re2 -MMD -c -Ddouble=float -DUSE_STDINT -D__PROG_TYPES_COMPAT__  -mstm8 -DSTM8S105 -DF_CPU=16000000L -DARDUINO=10812 -DARDUINO_STM8S_BLACK -DARDUINO_ARCH_STM8   -DARDUINO_STM8_STM8SBLACK_MENU_UPLOAD_METHOD_STM8GALMETHOD   -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/hardware/stm8/0.5/STM8S_StdPeriph_Driver/inc -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/tools/sdcc/build.11242/share/sdcc/include
+    /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/tools/sdcc/build.11242/bin/sdcc /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/stm8.stm8sblack/CMakeFiles/CMakeTmp/testCXXCompiler.cxx CMakeFiles/cmTC_04633.dir/testCXXCompiler.cxx.o re2 -MMD -c -Ddouble=float -DUSE_STDINT -D__PROG_TYPES_COMPAT__ -mstm8 -DSTM8S105 -DF_CPU=16000000L -DARDUINO=10812 -DARDUINO_STM8S_BLACK -DARDUINO_ARCH_STM8 -DARDUINO_STM8_STM8SBLACK_MENU_UPLOAD_METHOD_STM8GALMETHOD -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/hardware/stm8/0.5/STM8S_StdPeriph_Driver/inc -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/tools/sdcc/build.11242/share/sdcc/include
+    Mark re2:/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/tools/sdcc/build.11242/bin/sdcc -MMD -c -Ddouble=float -DUSE_STDINT -D__PROG_TYPES_COMPAT__ -mstm8 -DSTM8S105 -DF_CPU=16000000L -DARDUINO=10812 -DARDUINO_STM8S_BLACK -DARDUINO_ARCH_STM8 -DARDUINO_STM8_STM8SBLACK_MENU_UPLOAD_METHOD_STM8GALMETHOD -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/hardware/stm8/0.5/STM8S_StdPeriph_Driver/inc -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/tools/sdcc/build.11242/share/sdcc/include /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/stm8.stm8sblack/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o CMakeFiles/cmTC_04633.dir/testCXXCompiler.cxx.o
+    Linking CXX static library libcmTC_04633.a
+    /mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -P CMakeFiles/cmTC_04633.dir/cmake_clean_target.cmake
+    /mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04633.dir/link.txt --verbose=1
+    /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/tools/STM8Tools/2019.02.05/wrapper/sdar.sh  /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/tools/sdcc/build.11242/bin/sdar libcmTC_04633.a  CMakeFiles/cmTC_04633.dir/testCXXCompiler.cxx.o re4  rcs 
+    /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/tools/sdcc/build.11242/bin/sdar libcmTC_04633.a CMakeFiles/cmTC_04633.dir/testCXXCompiler.cxx.o re4 rcs
+    Mark re4:/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/tools/sdcc/build.11242/bin/sdar rcs libcmTC_04633.a CMakeFiles/cmTC_04633.dir/testCXXCompiler.cxx.rel
+    /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/_pkg_mgr/packages/sduino/tools/sdcc/build.11242/bin/sdar: CMakeFiles/cmTC_04633.dir/testCXXCompiler.cxx.rel: No such file or directory
+    cp: cannot stat 'libcmTC_04633.a': No such file or directory
+    CMakeFiles/cmTC_04633.dir/build.make:103: recipe for target 'libcmTC_04633.a' failed
+    make[1]: *** [libcmTC_04633.a] Error 1
+    make[1]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/stm8.stm8sblack/CMakeFiles/CMakeTmp'
+    Makefile:138: recipe for target 'cmTC_04633/fast' failed
+    make: *** [cmTC_04633/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:3 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/stm8.stm8sblack/CMakeFiles/CMakeOutput.log".
+See also "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/sduino.stm8/stm8.stm8sblack/CMakeFiles/CMakeError.log".

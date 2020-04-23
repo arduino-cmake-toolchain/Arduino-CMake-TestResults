@@ -1,0 +1,16 @@
+-- The CXX compiler identification is unknown
+CMake Error at CMakeLists.txt:3 (project):
+  The CMAKE_CXX_COMPILER:
+
+    /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Intel.i586/_pkg_mgr/packages/Intel/tools/i586-poky-linux-uclibc/1.6.2+1.0/i586/sysroots/pokysdk/usr/bin/i586-poky-linux-uclibc/i586-poky-linux-uclibc-g++
+
+  is not a full path to an existing compiler tool.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Intel.i586/i586.izmir_fg/CMakeFiles/CMakeOutput.log".
+See also "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Intel.i586/i586.izmir_fg/CMakeFiles/CMakeError.log".

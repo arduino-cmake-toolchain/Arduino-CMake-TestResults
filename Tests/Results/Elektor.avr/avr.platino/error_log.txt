@@ -1,0 +1,66 @@
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working CXX compiler: /opt/arduino-1.8.12/hardware/tools/avr/bin/avr-g++
+-- Check for working CXX compiler: /opt/arduino-1.8.12/hardware/tools/avr/bin/avr-g++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino
+/mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -S/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world -B/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino --check-build-system CMakeFiles/Makefile.cmake 0
+/mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -E cmake_progress_start /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/CMakeFiles /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino'
+/usr/bin/make -f CMakeFiles/_arduino_lib_core_cobjects_.dir/build.make CMakeFiles/_arduino_lib_core_cobjects_.dir/depend
+make[2]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino'
+cd /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino && /mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/CMakeFiles/_arduino_lib_core_cobjects_.dir/DependInfo.cmake --color=
+Dependee "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/CMakeFiles/_arduino_lib_core_cobjects_.dir/DependInfo.cmake" is newer than depender "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/CMakeFiles/_arduino_lib_core_cobjects_.dir/depend.internal".
+Dependee "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/CMakeFiles/_arduino_lib_core_cobjects_.dir/depend.internal".
+Scanning dependencies of target _arduino_lib_core_cobjects_
+make[2]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino'
+/usr/bin/make -f CMakeFiles/_arduino_lib_core_cobjects_.dir/build.make CMakeFiles/_arduino_lib_core_cobjects_.dir/build
+make[2]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino'
+[ 25%] Building CXX object CMakeFiles/_arduino_lib_core_cobjects_.dir/_arduino_lib_core_dummy.cpp.o
+/opt/arduino-1.8.12/hardware/tools/avr/bin/avr-g++  -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega8 -DF_CPU=16000000L -DARDUINO=10812 -DARDUINO_AVR_PLATINO_28PIN -DARDUINO_ARCH_AVR   -DARDUINO_AVR_PLATINO_MENU_CPU_ATMEGA8 -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/_pkg_mgr/packages/Elektor/hardware/avr/1.0.3/cores/Platino -I/opt/arduino-1.8.12/hardware/arduino/avr/variants/standard   /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/_arduino_lib_core_dummy.cpp -o CMakeFiles/_arduino_lib_core_cobjects_.dir/_arduino_lib_core_dummy.cpp.o
+make[2]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino'
+[ 25%] Built target _arduino_lib_core_cobjects_
+/usr/bin/make -f CMakeFiles/_arduino_lib_core.dir/build.make CMakeFiles/_arduino_lib_core.dir/depend
+make[2]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino'
+cd /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino && /mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/CMakeFiles/_arduino_lib_core.dir/DependInfo.cmake --color=
+Dependee "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/CMakeFiles/_arduino_lib_core.dir/DependInfo.cmake" is newer than depender "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/CMakeFiles/_arduino_lib_core.dir/depend.internal".
+Dependee "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/CMakeFiles/_arduino_lib_core.dir/depend.internal".
+Scanning dependencies of target _arduino_lib_core
+make[2]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino'
+/usr/bin/make -f CMakeFiles/_arduino_lib_core.dir/build.make CMakeFiles/_arduino_lib_core.dir/build
+make[2]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino'
+[ 50%] Linking CXX static library lib_arduino_lib_core.a
+/mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -P CMakeFiles/_arduino_lib_core.dir/cmake_clean_target.cmake
+/mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/_arduino_lib_core.dir/link.txt --verbose=1
+/opt/arduino-1.8.12/hardware/tools/avr/bin/avr-gcc-ar  rcs  lib_arduino_lib_core.a  CMakeFiles/_arduino_lib_core_cobjects_.dir/_arduino_lib_core_dummy.cpp.o
+make[2]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino'
+[ 50%] Built target _arduino_lib_core
+/usr/bin/make -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/depend
+make[2]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino'
+cd /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino && /mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/CMakeFiles/hello_world.dir/DependInfo.cmake --color=
+Dependee "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/CMakeFiles/hello_world.dir/DependInfo.cmake" is newer than depender "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/CMakeFiles/hello_world.dir/depend.internal".
+Dependee "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino/CMakeFiles/hello_world.dir/depend.internal".
+Scanning dependencies of target hello_world
+make[2]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino'
+/usr/bin/make -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
+make[2]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino'
+[ 75%] Building CXX object CMakeFiles/hello_world.dir/hello_world.cpp.o
+/opt/arduino-1.8.12/hardware/tools/avr/bin/avr-g++  -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega8 -DF_CPU=16000000L -DARDUINO=10812 -DARDUINO_AVR_PLATINO_28PIN -DARDUINO_ARCH_AVR   -DARDUINO_AVR_PLATINO_MENU_CPU_ATMEGA8 -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/_pkg_mgr/packages/Elektor/hardware/avr/1.0.3/cores/Platino -I/opt/arduino-1.8.12/hardware/arduino/avr/variants/standard   /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world/hello_world.cpp -o CMakeFiles/hello_world.dir/hello_world.cpp.o
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world/hello_world.cpp:2:10: fatal error: Arduino.h: No such file or directory
+ #include "Arduino.h"
+          ^~~~~~~~~~~
+compilation terminated.
+CMakeFiles/hello_world.dir/build.make:82: recipe for target 'CMakeFiles/hello_world.dir/hello_world.cpp.o' failed
+make[2]: *** [CMakeFiles/hello_world.dir/hello_world.cpp.o] Error 1
+make[2]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino'
+CMakeFiles/Makefile2:156: recipe for target 'CMakeFiles/hello_world.dir/all' failed
+make[1]: *** [CMakeFiles/hello_world.dir/all] Error 2
+make[1]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/Elektor.avr/avr.platino'
+Makefile:103: recipe for target 'all' failed
+make: *** [all] Error 2
+burn-bootloader has unknown variables: PROTOCOL, PROGRAM_EXTRA_PARAMS

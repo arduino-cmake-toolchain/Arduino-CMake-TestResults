@@ -1,0 +1,113 @@
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working CXX compiler: /opt/arduino-1.8.12/hardware/tools/avr/bin/avr-g++
+-- Check for working CXX compiler: /opt/arduino-1.8.12/hardware/tools/avr/bin/avr-g++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The C compiler identification is GNU 7.3.0
+-- Check for working C compiler: /opt/arduino-1.8.12/hardware/tools/avr/bin/avr-gcc
+-- Check for working C compiler: /opt/arduino-1.8.12/hardware/tools/avr/bin/avr-gcc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20
+/mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -S/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world -B/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20 --check-build-system CMakeFiles/Makefile.cmake 0
+/mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -E cmake_progress_start /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20/CMakeFiles /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20'
+/usr/bin/make -f CMakeFiles/_arduino_lib_core_cobjects_.dir/build.make CMakeFiles/_arduino_lib_core_cobjects_.dir/depend
+make[2]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20'
+cd /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20 && /mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20 /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20 /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20/CMakeFiles/_arduino_lib_core_cobjects_.dir/DependInfo.cmake --color=
+Dependee "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20/CMakeFiles/_arduino_lib_core_cobjects_.dir/DependInfo.cmake" is newer than depender "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20/CMakeFiles/_arduino_lib_core_cobjects_.dir/depend.internal".
+Dependee "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20/CMakeFiles/_arduino_lib_core_cobjects_.dir/depend.internal".
+Scanning dependencies of target _arduino_lib_core_cobjects_
+make[2]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20'
+/usr/bin/make -f CMakeFiles/_arduino_lib_core_cobjects_.dir/build.make CMakeFiles/_arduino_lib_core_cobjects_.dir/build
+make[2]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20'
+[  5%] Building C object CMakeFiles/_arduino_lib_core_cobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/WInterrupts.c.o
+/opt/arduino-1.8.12/hardware/tools/avr/bin/avr-gcc  -c -g -Os -w -ffunction-sections -fdata-sections -MMD -mmcu=attiny167 -DF_CPU=20000000L -DARDUINO=10812 -DARDUINO_ATTINY167 -DARDUINO_ARCH_AVR    -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/variants/tinyX7   /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/WInterrupts.c -o CMakeFiles/_arduino_lib_core_cobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/WInterrupts.c.o
+[ 11%] Building C object CMakeFiles/_arduino_lib_core_cobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/wiring.c.o
+/opt/arduino-1.8.12/hardware/tools/avr/bin/avr-gcc  -c -g -Os -w -ffunction-sections -fdata-sections -MMD -mmcu=attiny167 -DF_CPU=20000000L -DARDUINO=10812 -DARDUINO_ATTINY167 -DARDUINO_ARCH_AVR    -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/variants/tinyX7   /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/wiring.c -o CMakeFiles/_arduino_lib_core_cobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/wiring.c.o
+[ 17%] Building C object CMakeFiles/_arduino_lib_core_cobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/wiring_analog.c.o
+/opt/arduino-1.8.12/hardware/tools/avr/bin/avr-gcc  -c -g -Os -w -ffunction-sections -fdata-sections -MMD -mmcu=attiny167 -DF_CPU=20000000L -DARDUINO=10812 -DARDUINO_ATTINY167 -DARDUINO_ARCH_AVR    -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/variants/tinyX7   /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/wiring_analog.c -o CMakeFiles/_arduino_lib_core_cobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/wiring_analog.c.o
+[ 23%] Building C object CMakeFiles/_arduino_lib_core_cobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/wiring_digital.c.o
+/opt/arduino-1.8.12/hardware/tools/avr/bin/avr-gcc  -c -g -Os -w -ffunction-sections -fdata-sections -MMD -mmcu=attiny167 -DF_CPU=20000000L -DARDUINO=10812 -DARDUINO_ATTINY167 -DARDUINO_ARCH_AVR    -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/variants/tinyX7   /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/wiring_digital.c -o CMakeFiles/_arduino_lib_core_cobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/wiring_digital.c.o
+[ 29%] Building C object CMakeFiles/_arduino_lib_core_cobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/wiring_pulse.c.o
+/opt/arduino-1.8.12/hardware/tools/avr/bin/avr-gcc  -c -g -Os -w -ffunction-sections -fdata-sections -MMD -mmcu=attiny167 -DF_CPU=20000000L -DARDUINO=10812 -DARDUINO_ATTINY167 -DARDUINO_ARCH_AVR    -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/variants/tinyX7   /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/wiring_pulse.c -o CMakeFiles/_arduino_lib_core_cobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/wiring_pulse.c.o
+[ 35%] Building C object CMakeFiles/_arduino_lib_core_cobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/wiring_shift.c.o
+/opt/arduino-1.8.12/hardware/tools/avr/bin/avr-gcc  -c -g -Os -w -ffunction-sections -fdata-sections -MMD -mmcu=attiny167 -DF_CPU=20000000L -DARDUINO=10812 -DARDUINO_ATTINY167 -DARDUINO_ARCH_AVR    -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/variants/tinyX7   /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/wiring_shift.c -o CMakeFiles/_arduino_lib_core_cobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/wiring_shift.c.o
+[ 41%] Building CXX object CMakeFiles/_arduino_lib_core_cobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp.o
+/opt/arduino-1.8.12/hardware/tools/avr/bin/avr-g++  -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=attiny167 -DF_CPU=20000000L -DARDUINO=10812 -DARDUINO_ATTINY167 -DARDUINO_ARCH_AVR    -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/variants/tinyX7   /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp -o CMakeFiles/_arduino_lib_core_cobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp.o
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp:199:6: error: #error UDR not defined
+     #error UDR not defined
+      ^~~~~
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp: In function 'void __vector_12()':
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp:131:24: error: 'rx_buffer' was not declared in this scope
+         store_char(c, &rx_buffer);
+                        ^~~~~~~~~
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp:131:24: note: suggested alternative: 'ring_buffer'
+         store_char(c, &rx_buffer);
+                        ^~~~~~~~~
+                        ring_buffer
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp:135:11: error: 'tx_buffer' was not declared in this scope
+       if (tx_buffer.head == tx_buffer.tail) {
+           ^~~~~~~~~
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp:135:11: note: suggested alternative: 'ring_buffer'
+       if (tx_buffer.head == tx_buffer.tail) {
+           ^~~~~~~~~
+           ring_buffer
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp: At global scope:
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp:180:1: error: expected unqualified-id before '{' token
+ {
+ ^
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp:246:3: error: expected identifier before ')' token
+   )
+   ^
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp:225:1: error: prototype for 'HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, int)' does not match any in class 'HardwareSerial'
+ HardwareSerial::HardwareSerial(ring_buffer *rx_buffer, ring_buffer *tx_buffer,
+ ^~~~~~~~~~~~~~
+In file included from /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/Arduino.h:222:0,
+                 from /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp:28:
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.h:32:7: error: candidates are: constexpr HardwareSerial::HardwareSerial(HardwareSerial&&)
+ class HardwareSerial : public Stream
+       ^~~~~~~~~~~~~~
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.h:32:7: error:                 constexpr HardwareSerial::HardwareSerial(const HardwareSerial&)
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.h:48:5: error:                 HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*)
+     HardwareSerial(ring_buffer *rx_buffer, ring_buffer *tx_buffer
+     ^~~~~~~~~~~~~~
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp: In member function 'virtual size_t HardwareSerial::write(uint8_t)':
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp:377:23: error: 'tx_buffer' was not declared in this scope
+     unsigned char c = tx_buffer.buffer[tx_buffer.tail];
+                       ^~~~~~~~~
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp:377:23: note: suggested alternative: '_tx_buffer'
+     unsigned char c = tx_buffer.buffer[tx_buffer.tail];
+                       ^~~~~~~~~
+                       _tx_buffer
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp: At global scope:
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp:398:26: error: 'rx_buffer' was not declared in this scope
+   HardwareSerial Serial(&rx_buffer, &tx_buffer);
+                          ^~~~~~~~~
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp:398:26: note: suggested alternative: 'ring_buffer'
+   HardwareSerial Serial(&rx_buffer, &tx_buffer);
+                          ^~~~~~~~~
+                          ring_buffer
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp:398:38: error: 'tx_buffer' was not declared in this scope
+   HardwareSerial Serial(&rx_buffer, &tx_buffer);
+                                      ^~~~~~~~~
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp:398:38: note: suggested alternative: 'ring_buffer'
+   HardwareSerial Serial(&rx_buffer, &tx_buffer);
+                                      ^~~~~~~~~
+                                      ring_buffer
+CMakeFiles/_arduino_lib_core_cobjects_.dir/build.make:160: recipe for target 'CMakeFiles/_arduino_lib_core_cobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp.o' failed
+make[2]: *** [CMakeFiles/_arduino_lib_core_cobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/_pkg_mgr/packages/FemtoCow-attiny/hardware/avr/1.1.0/cores/tiny/HardwareSerial.cpp.o] Error 1
+make[2]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20'
+CMakeFiles/Makefile2:183: recipe for target 'CMakeFiles/_arduino_lib_core_cobjects_.dir/all' failed
+make[1]: *** [CMakeFiles/_arduino_lib_core_cobjects_.dir/all] Error 2
+make[1]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/FemtoCow_attiny.avr/avr.attiny167_20'
+Makefile:103: recipe for target 'all' failed
+make: *** [all] Error 2
+upload has unknown variables: PROTOCOLupload-network has unknown variables: NETWORK_CMDburn-bootloader has unknown variables: PROTOCOL, PROGRAM_EXTRA_PARAMS, LOCK_BITS

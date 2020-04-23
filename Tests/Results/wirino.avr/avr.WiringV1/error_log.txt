@@ -1,0 +1,26 @@
+CMake Error at /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/wirino.avr/avr.WiringV1/CMakeFiles/3.17.0-rc3/CMakeSystem.cmake:12 (include):
+  include could not find load file:
+
+    /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/toolchain/wirino.avr/avr.WiringV1/ArduinoSystem.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:3 (project)
+
+
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working CXX compiler: /usr/bin/c++
+CMake Error at /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/wirino.avr/avr.WiringV1/CMakeFiles/3.17.0-rc3/CMakeSystem.cmake:12 (include):
+  include could not find load file:
+
+    /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/toolchain/wirino.avr/avr.WiringV1/ArduinoSystem.cmake
+Call Stack (most recent call first):
+  /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/wirino.avr/avr.WiringV1/CMakeFiles/CMakeTmp/CMakeLists.txt:3 (project)
+
+
+CMake Error at /mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/share/cmake-3.17/Modules/CMakeTestCXXCompiler.cmake:37 (try_compile):
+  Failed to configure test project build system.
+Call Stack (most recent call first):
+  CMakeLists.txt:3 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/wirino.avr/avr.WiringV1/CMakeFiles/CMakeOutput.log".

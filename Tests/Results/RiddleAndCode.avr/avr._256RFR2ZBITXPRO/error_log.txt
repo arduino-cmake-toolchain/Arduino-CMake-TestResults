@@ -1,0 +1,52 @@
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working CXX compiler: /opt/arduino-1.8.12/hardware/tools/avr/bin/avr-g++
+-- Check for working CXX compiler: /opt/arduino-1.8.12/hardware/tools/avr/bin/avr-g++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The ASM compiler identification is GNU
+-- Found assembler: /opt/arduino-1.8.12/hardware/tools/avr/bin/avr-gcc
+-- The C compiler identification is GNU 7.3.0
+-- Check for working C compiler: /opt/arduino-1.8.12/hardware/tools/avr/bin/avr-gcc
+-- Check for working C compiler: /opt/arduino-1.8.12/hardware/tools/avr/bin/avr-gcc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO
+/mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -S/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world -B/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO --check-build-system CMakeFiles/Makefile.cmake 0
+/mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -E cmake_progress_start /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO/CMakeFiles /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO'
+/usr/bin/make -f CMakeFiles/_arduino_lib_core_cobjects_.dir/build.make CMakeFiles/_arduino_lib_core_cobjects_.dir/depend
+make[2]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO'
+cd /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO && /mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO/CMakeFiles/_arduino_lib_core_cobjects_.dir/DependInfo.cmake --color=
+Dependee "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO/CMakeFiles/_arduino_lib_core_cobjects_.dir/DependInfo.cmake" is newer than depender "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO/CMakeFiles/_arduino_lib_core_cobjects_.dir/depend.internal".
+Dependee "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO/CMakeFiles/_arduino_lib_core_cobjects_.dir/depend.internal".
+Scanning dependencies of target _arduino_lib_core_cobjects_
+make[2]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO'
+/usr/bin/make -f CMakeFiles/_arduino_lib_core_cobjects_.dir/build.make CMakeFiles/_arduino_lib_core_cobjects_.dir/build
+make[2]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO'
+[  3%] Building ASM object CMakeFiles/_arduino_lib_core_cobjects_.dir/opt/arduino-1.8.12/hardware/arduino/avr/cores/arduino/wiring_pulse.S.obj
+/opt/arduino-1.8.12/hardware/tools/avr/bin/avr-gcc  -c -g -x assembler-with-cpp -mmcu=atmega256rfr2 -DF_CPU=8000000L -DARDUINO=10812 -DARDUINO_{build.board} -DARDUINO_ARCH_AVR    -I/opt/arduino-1.8.12/hardware/arduino/avr/cores/arduino -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/_pkg_mgr/packages/RiddleAndCode/hardware/avr/1.0.0/variants/atmega256rfr2_zigbit_extpro   /opt/arduino-1.8.12/hardware/arduino/avr/cores/arduino/wiring_pulse.S -o CMakeFiles/_arduino_lib_core_cobjects_.dir/opt/arduino-1.8.12/hardware/arduino/avr/cores/arduino/wiring_pulse.S.obj
+<command-line>:0:9: warning: missing whitespace after the macro name
+[  7%] Building C object CMakeFiles/_arduino_lib_core_cobjects_.dir/opt/arduino-1.8.12/hardware/arduino/avr/cores/arduino/WInterrupts.c.o
+/opt/arduino-1.8.12/hardware/tools/avr/bin/avr-gcc  -c -g -Os -w -ffunction-sections -fdata-sections -MMD --std=c99 -mmcu=atmega256rfr2 -DF_CPU=8000000L -DARDUINO=10812 -DARDUINO_{build.board} -DARDUINO_ARCH_AVR    -I/opt/arduino-1.8.12/hardware/arduino/avr/cores/arduino -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/_pkg_mgr/packages/RiddleAndCode/hardware/avr/1.0.0/variants/atmega256rfr2_zigbit_extpro   /opt/arduino-1.8.12/hardware/arduino/avr/cores/arduino/WInterrupts.c -o CMakeFiles/_arduino_lib_core_cobjects_.dir/opt/arduino-1.8.12/hardware/arduino/avr/cores/arduino/WInterrupts.c.o
+In file included from /opt/arduino-1.8.12/hardware/arduino/avr/cores/arduino/wiring_private.h:31:0,
+                 from /opt/arduino-1.8.12/hardware/arduino/avr/cores/arduino/WInterrupts.c:33:
+/opt/arduino-1.8.12/hardware/arduino/avr/cores/arduino/Arduino.h:258:10: fatal error: pins_arduino.h: No such file or directory
+ #include "pins_arduino.h"
+          ^~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/_arduino_lib_core_cobjects_.dir/build.make:87: recipe for target 'CMakeFiles/_arduino_lib_core_cobjects_.dir/opt/arduino-1.8.12/hardware/arduino/avr/cores/arduino/WInterrupts.c.o' failed
+make[2]: *** [CMakeFiles/_arduino_lib_core_cobjects_.dir/opt/arduino-1.8.12/hardware/arduino/avr/cores/arduino/WInterrupts.c.o] Error 1
+make[2]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO'
+CMakeFiles/Makefile2:212: recipe for target 'CMakeFiles/_arduino_lib_core_cobjects_.dir/all' failed
+make[1]: *** [CMakeFiles/_arduino_lib_core_cobjects_.dir/all] Error 2
+make[1]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/RiddleAndCode.avr/avr._256RFR2ZBITXPRO'
+Makefile:103: recipe for target 'all' failed
+make: *** [all] Error 2
+burn-bootloader has unknown variables: PROTOCOL, PROGRAM_EXTRA_PARAMS

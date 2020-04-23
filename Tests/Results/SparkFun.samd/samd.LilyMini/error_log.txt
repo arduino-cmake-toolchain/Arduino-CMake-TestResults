@@ -1,0 +1,39 @@
+-- The CXX compiler identification is GNU 4.8.3
+-- Check for working CXX compiler: /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/_pkg_mgr/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/arm-none-eabi-g++
+-- Check for working CXX compiler: /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/_pkg_mgr/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/arm-none-eabi-g++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini
+/mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -S/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world -B/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini --check-build-system CMakeFiles/Makefile.cmake 0
+/mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -E cmake_progress_start /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini/CMakeFiles /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini'
+/usr/bin/make -f CMakeFiles/_arduino_lib_core_vobjects_.dir/build.make CMakeFiles/_arduino_lib_core_vobjects_.dir/depend
+make[2]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini'
+cd /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini && /mnt/LIN_BUILD/cmake-3.17.0-rc3-Linux-x86_64/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Examples/01_hello_world /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini/CMakeFiles/_arduino_lib_core_vobjects_.dir/DependInfo.cmake --color=
+Dependee "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini/CMakeFiles/_arduino_lib_core_vobjects_.dir/DependInfo.cmake" is newer than depender "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini/CMakeFiles/_arduino_lib_core_vobjects_.dir/depend.internal".
+Dependee "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini/CMakeFiles/_arduino_lib_core_vobjects_.dir/depend.internal".
+Scanning dependencies of target _arduino_lib_core_vobjects_
+make[2]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini'
+/usr/bin/make -f CMakeFiles/_arduino_lib_core_vobjects_.dir/build.make CMakeFiles/_arduino_lib_core_vobjects_.dir/build
+make[2]: Entering directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini'
+[ 20%] Building CXX object CMakeFiles/_arduino_lib_core_vobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/_pkg_mgr/packages/SparkFun/hardware/samd/1.7.4/variants/SparkFun_LilyMini/variant.cpp.o
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/_pkg_mgr/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/arm-none-eabi-g++  -mcpu=cortex-m0plus -mthumb -c -g -Os -w -std=gnu++11 -ffunction-sections -fdata-sections -fno-threadsafe-statics -nostdlib --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -DF_CPU=48000000L -DARDUINO=10812 -DARDUINO_SAMD_ZERO -DARDUINO_ARCH_SAMD  -D__SAMD11D14AM__ -DUSB_VID=0x1B4F -DUSB_PID=0x0100 -DUSBCON "-DUSB_MANUFACTURER=\"SparkFun\"" "-DUSB_PRODUCT=\"SFE LILYMINI\"" -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/_pkg_mgr/packages/arduino/tools/CMSIS/4.5.0/CMSIS/Include/ -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/_pkg_mgr/packages/arduino/tools/CMSIS-Atmel/1.2.0/CMSIS/Device/ATMEL/  -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/_pkg_mgr/packages/SparkFun/hardware/samd/1.7.4/cores/lilymini -I/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/_pkg_mgr/packages/SparkFun/hardware/samd/1.7.4/variants/SparkFun_LilyMini   /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/_pkg_mgr/packages/SparkFun/hardware/samd/1.7.4/variants/SparkFun_LilyMini/variant.cpp -o CMakeFiles/_arduino_lib_core_vobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/_pkg_mgr/packages/SparkFun/hardware/samd/1.7.4/variants/SparkFun_LilyMini/variant.cpp.o
+In file included from /mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/_pkg_mgr/packages/SparkFun/hardware/samd/1.7.4/variants/SparkFun_LilyMini/variant.cpp:22:0:
+/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/_pkg_mgr/packages/SparkFun/hardware/samd/1.7.4/variants/SparkFun_LilyMini/variant.h:39:22: fatal error: WVariant.h: No such file or directory
+ #include "WVariant.h"
+                      ^
+compilation terminated.
+CMakeFiles/_arduino_lib_core_vobjects_.dir/build.make:82: recipe for target 'CMakeFiles/_arduino_lib_core_vobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/_pkg_mgr/packages/SparkFun/hardware/samd/1.7.4/variants/SparkFun_LilyMini/variant.cpp.o' failed
+make[2]: *** [CMakeFiles/_arduino_lib_core_vobjects_.dir/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/_pkg_mgr/packages/SparkFun/hardware/samd/1.7.4/variants/SparkFun_LilyMini/variant.cpp.o] Error 1
+make[2]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini'
+CMakeFiles/Makefile2:240: recipe for target 'CMakeFiles/_arduino_lib_core_vobjects_.dir/all' failed
+make[1]: *** [CMakeFiles/_arduino_lib_core_vobjects_.dir/all] Error 2
+make[1]: Leaving directory '/mnt/LIN_BUILD/src/Arduino-CMake-toolchain/Arduino-CMake-toolchain/Tests-build/build/SparkFun.samd/samd.LilyMini'
+Makefile:103: recipe for target 'all' failed
+make: *** [all] Error 2
+program has unknown variables: RUNTIME_TOOLS_OPENOCD_0_9_0_ARDUINO6_STATIC_PATHburn-bootloader has unknown variables: RUNTIME_TOOLS_OPENOCD_0_9_0_ARDUINO6_STATIC_PATH

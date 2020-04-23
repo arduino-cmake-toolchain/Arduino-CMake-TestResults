@@ -1,0 +1,18 @@
+# Copyright (c) 2020 Arduino CMake Toolchain
+
+###############################################################################
+# This is an automatically generated template file for board options.
+# You may edit it to comment/uncomment selected board and board options.
+# However do not change the structure of this template, which is fixed and 
+# any change to the structure gets overwritten.
+
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# Arduino boards.
+# Platform: Elemon Arduino Boards
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+set(ARDUINO_BOARD "samd.Atmel_SAMD21_XplainedPro_native") # EESA IOT 5.0 (Native USB Port)
+
+#==============================================================================
+# Menu options.
+# Board: EESA IOT 5.0 (Native USB Port) [samd.Atmel_SAMD21_XplainedPro_native]
+#==============================================================================
