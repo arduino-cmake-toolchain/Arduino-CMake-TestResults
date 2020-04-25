@@ -11,15 +11,91 @@ official and 3rd party list of Arduino platforms maintained in the
 [3]: https://my.cdash.org/index.php?project=Arduino-CMake-Toolchain
 
 <details>
-<summary>**&#x2713; Arduino AVR Boards** *by Arduino* \[arduino\.avr\] (1.8.2) \[[url](file:////opt/arduino-1.8.12/hardware/package_index_bundled.json)\] \[[info](http://www.arduino.cc/)\] \[[help](http://www.arduino.cc/en/Reference/HomePage)\] \[[email](mailto:packages@arduino.cc)\]</summary>
+<summary><strong>&#x2713;</strong> <strong>Arduino AVR Boards</strong> <em>by Arduino</em> [arduino.avr] (1.8.2) [<a href="file:////opt/arduino-1.8.12/hardware/package_index_bundled.json">url</a>] [<a href="http://www.arduino.cc/">info</a>] [<a href="http://www.arduino.cc/en/Reference/HomePage">help</a>] [<a href="mailto:packages@arduino.cc">email</a>]</summary>
+<br/>
 
-| Boards/Tools        | Supported list        |
-|---------------------|-----------------------|
-| Boards              | **&#x2713; Arduino Yn** \[avr\.yun\] \[[options](Tests/Results/arduino.avr/avr.yun/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Uno** \[avr\.uno\] \[[options](Tests/Results/arduino.avr/avr.uno/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Duemilanove or Diecimila** \[avr\.diecimila\] \[[options](Tests/Results/arduino.avr/avr.diecimila/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Nano** \[avr\.nano\] \[[options](Tests/Results/arduino.avr/avr.nano/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Mega or Mega 2560** \[avr\.mega\] \[[options](Tests/Results/arduino.avr/avr.mega/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Mega ADK** \[avr\.megaADK\] \[[options](Tests/Results/arduino.avr/avr.megaADK/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Leonardo** \[avr\.leonardo\] \[[options](Tests/Results/arduino.avr/avr.leonardo/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Leonardo ETH** \[avr\.leonardoeth\] \[[options](Tests/Results/arduino.avr/avr.leonardoeth/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Micro** \[avr\.micro\] \[[options](Tests/Results/arduino.avr/avr.micro/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Esplora** \[avr\.esplora\] \[[options](Tests/Results/arduino.avr/avr.esplora/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Mini** \[avr\.mini\] \[[options](Tests/Results/arduino.avr/avr.mini/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Ethernet** \[avr\.ethernet\] \[[options](Tests/Results/arduino.avr/avr.ethernet/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Fio** \[avr\.fio\] \[[options](Tests/Results/arduino.avr/avr.fio/BoardOptions.cmake)\]<br/>**&#x2713; Arduino BT** \[avr\.bt\] \[[options](Tests/Results/arduino.avr/avr.bt/BoardOptions.cmake)\]<br/>**&#x2713; LilyPad Arduino USB** \[avr\.LilyPadUSB\] \[[options](Tests/Results/arduino.avr/avr.LilyPadUSB/BoardOptions.cmake)\]<br/>**&#x2713; LilyPad Arduino** \[avr\.lilypad\] \[[options](Tests/Results/arduino.avr/avr.lilypad/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Pro or Pro Mini** \[avr\.pro\] \[[options](Tests/Results/arduino.avr/avr.pro/BoardOptions.cmake)\]<br/>**&#x2713; Arduino NG or older** \[avr\.atmegang\] \[[options](Tests/Results/arduino.avr/avr.atmegang/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Robot Control** \[avr\.robotControl\] \[[options](Tests/Results/arduino.avr/avr.robotControl/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Robot Motor** \[avr\.robotMotor\] \[[options](Tests/Results/arduino.avr/avr.robotMotor/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Gemma** \[avr\.gemma\] \[[options](Tests/Results/arduino.avr/avr.gemma/BoardOptions.cmake)\]<br/>**&#x2713; Adafruit Circuit Playground** \[avr\.circuitplay32u4cat\] \[[options](Tests/Results/arduino.avr/avr.circuitplay32u4cat/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Yn Mini** \[avr\.yunmini\] \[[options](Tests/Results/arduino.avr/avr.yunmini/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Industrial 101** \[avr\.chiwawa\] \[[options](Tests/Results/arduino.avr/avr.chiwawa/BoardOptions.cmake)\]<br/>**&#x2713; Linino One** \[avr\.one\] \[[options](Tests/Results/arduino.avr/avr.one/BoardOptions.cmake)\]<br/>**&#x2713; Arduino Uno WiFi** \[avr\.unowifi\] \[[options](Tests/Results/arduino.avr/avr.unowifi/BoardOptions.cmake)\]<br/>         |
-| Upload              | **&#x2713; avrdude \(Serial Port\)** \[avrdude\]<br/>\[[unexpected options](Tests/Results/arduino.avr/upload_vars.txt)\]         |
-| Remote provisioning | **&#x2713; avrdude \(Network\)** \[avrdude\]<br/> |
-| ISP                 | **&#x2713; AVR ISP** \[avrisp\]<br/>**&#x2713; AVRISP mkII** \[avrispmkii\]<br/>**&#x2713; USBtinyISP** \[usbtinyisp\]<br/>**&#x2713; ArduinoISP** \[arduinoisp\]<br/>**&#x2713; ArduinoISP\.org** \[arduinoisporg\]<br/>**&#x2713; USBasp** \[usbasp\]<br/>**&#x2713; Parallel Programmer** \[parallel\]<br/>**&#x2713; Arduino as ISP** \[arduinoasisp\]<br/>**&#x2713; Arduino as ISP \(ATmega32U4\)** \[arduinoasispatmega32u4\]<br/>**&#x2713; Arduino Gemma** \[usbGemma\]<br/>**&#x2713; BusPirate as ISP** \[buspirate\]<br/>**&#x2713; Atmel STK500 development board** \[stk500\]<br/>**&#x2713; Atmel JTAGICE3 \(ISP mode\)** \[jtag3isp\]<br/>**&#x2713; Atmel JTAGICE3 \(JTAG mode\)** \[jtag3\]<br/>**&#x2713; Atmel-ICE \(AVR\)** \[atmel_ice\]<br/>        |
-| Debug               | **&#x2717;** None          |
+<table>
+<tr>
+  <td>
+    <strong>Boards</strong></td>
+  <td>
+<strong>&#x2713;</strong> <strong>Arduino Yn</strong> [avr.yun] [<a href="Tests/Results/arduino.avr/avr.yun/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Uno</strong> [avr.uno] [<a href="Tests/Results/arduino.avr/avr.uno/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Duemilanove or Diecimila</strong> [avr.diecimila] [<a href="Tests/Results/arduino.avr/avr.diecimila/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Nano</strong> [avr.nano] [<a href="Tests/Results/arduino.avr/avr.nano/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Mega or Mega 2560</strong> [avr.mega] [<a href="Tests/Results/arduino.avr/avr.mega/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Mega ADK</strong> [avr.megaADK] [<a href="Tests/Results/arduino.avr/avr.megaADK/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Leonardo</strong> [avr.leonardo] [<a href="Tests/Results/arduino.avr/avr.leonardo/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Leonardo ETH</strong> [avr.leonardoeth] [<a href="Tests/Results/arduino.avr/avr.leonardoeth/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Micro</strong> [avr.micro] [<a href="Tests/Results/arduino.avr/avr.micro/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Esplora</strong> [avr.esplora] [<a href="Tests/Results/arduino.avr/avr.esplora/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Mini</strong> [avr.mini] [<a href="Tests/Results/arduino.avr/avr.mini/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Ethernet</strong> [avr.ethernet] [<a href="Tests/Results/arduino.avr/avr.ethernet/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Fio</strong> [avr.fio] [<a href="Tests/Results/arduino.avr/avr.fio/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino BT</strong> [avr.bt] [<a href="Tests/Results/arduino.avr/avr.bt/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>LilyPad Arduino USB</strong> [avr.LilyPadUSB] [<a href="Tests/Results/arduino.avr/avr.LilyPadUSB/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>LilyPad Arduino</strong> [avr.lilypad] [<a href="Tests/Results/arduino.avr/avr.lilypad/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Pro or Pro Mini</strong> [avr.pro] [<a href="Tests/Results/arduino.avr/avr.pro/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino NG or older</strong> [avr.atmegang] [<a href="Tests/Results/arduino.avr/avr.atmegang/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Robot Control</strong> [avr.robotControl] [<a href="Tests/Results/arduino.avr/avr.robotControl/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Robot Motor</strong> [avr.robotMotor] [<a href="Tests/Results/arduino.avr/avr.robotMotor/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Gemma</strong> [avr.gemma] [<a href="Tests/Results/arduino.avr/avr.gemma/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Adafruit Circuit Playground</strong> [avr.circuitplay32u4cat] [<a href="Tests/Results/arduino.avr/avr.circuitplay32u4cat/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Yn Mini</strong> [avr.yunmini] [<a href="Tests/Results/arduino.avr/avr.yunmini/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Industrial 101</strong> [avr.chiwawa] [<a href="Tests/Results/arduino.avr/avr.chiwawa/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Linino One</strong> [avr.one] [<a href="Tests/Results/arduino.avr/avr.one/BoardOptions.cmake">options</a>]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Uno WiFi</strong> [avr.unowifi] [<a href="Tests/Results/arduino.avr/avr.unowifi/BoardOptions.cmake">options</a>]<br/>
+
+  </td>
+</tr>
+<tr>
+  <td>
+    <strong>Upload</strong></td>
+  <td>
+<strong>&#x2713;</strong> <strong>avrdude (Serial Port)</strong> [avrdude]<br/>
+[<a href="Tests/Results/arduino.avr/upload_vars.txt">unexpected options</a>]
+
+  </td>
+</tr>
+<tr>
+  <td>
+    <strong>Remote Provisioning</strong></td>
+  <td>
+<strong>&#x2713;</strong> <strong>avrdude (Network)</strong> [avrdude]<br/>
+
+  </td>
+</tr>
+<tr>
+  <td>
+    <strong>ISP</strong></td>
+  <td>
+<strong>&#x2713;</strong> <strong>AVR ISP</strong> [avrisp]<br/>
+<strong>&#x2713;</strong> <strong>AVRISP mkII</strong> [avrispmkii]<br/>
+<strong>&#x2713;</strong> <strong>USBtinyISP</strong> [usbtinyisp]<br/>
+<strong>&#x2713;</strong> <strong>ArduinoISP</strong> [arduinoisp]<br/>
+<strong>&#x2713;</strong> <strong>ArduinoISP.org</strong> [arduinoisporg]<br/>
+<strong>&#x2713;</strong> <strong>USBasp</strong> [usbasp]<br/>
+<strong>&#x2713;</strong> <strong>Parallel Programmer</strong> [parallel]<br/>
+<strong>&#x2713;</strong> <strong>Arduino as ISP</strong> [arduinoasisp]<br/>
+<strong>&#x2713;</strong> <strong>Arduino as ISP (ATmega32U4)</strong> [arduinoasispatmega32u4]<br/>
+<strong>&#x2713;</strong> <strong>Arduino Gemma</strong> [usbGemma]<br/>
+<strong>&#x2713;</strong> <strong>BusPirate as ISP</strong> [buspirate]<br/>
+<strong>&#x2713;</strong> <strong>Atmel STK500 development board</strong> [stk500]<br/>
+<strong>&#x2713;</strong> <strong>Atmel JTAGICE3 (ISP mode)</strong> [jtag3isp]<br/>
+<strong>&#x2713;</strong> <strong>Atmel JTAGICE3 (JTAG mode)</strong> [jtag3]<br/>
+<strong>&#x2713;</strong> <strong>Atmel-ICE (AVR)</strong> [atmel_ice]<br/>
+
+  </td>
+</tr>
+<tr>
+  <td>
+    <strong>Debug</strong></td>
+  <td>
+<strong>&#x2717;</strong> None
+
+  </td>
+</tr>
+</table>
 
 </details>
  
